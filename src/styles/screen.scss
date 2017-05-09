@@ -1,4 +1,5 @@
 @import 'utility';
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Slab|Roboto+Mono');
 
 $base-text-size: 16px;
 $base-font-family: sans-serif;
@@ -10,4 +11,20 @@ html {
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+}
+
+.main {
+  display: flex;
+  font-family: 'Roboto';
+  flex-direction: column;
+  align-items: center;
+}
+
+.italianfood {
+  background-color: red;
+  color: green;
+}
+.mexicanfood {
+  background-color: green;
+  color: red;
 }
